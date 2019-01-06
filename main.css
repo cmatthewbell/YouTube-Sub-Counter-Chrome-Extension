@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  font-family: "Orbitron", sans-serif;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+
+#sub-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  font-size: 35px;
+  padding: 50px;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+  color: white;
+  background: black;
+  width: 60%;
+  height: 200px;
+  border-radius: 8px;
+  border: 12px solid #353b48;
+}
+
+#youtube-logo {
+  height: 75px;
+  width: 125px;
+  margin-right: 25px;
+}

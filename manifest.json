@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Subscriber Count",
+  "version": "1",
+  "author": "Chris Bell",
+  "description": "Shows your YouTube Subscriber Count.",
+
+  "browser_action": {
+    "default_title": "Subscriber count"
+  },
+
+  "chrome_url_overrides": {
+    "newtab": "main.html"
+  },
+
+  "permissions": ["activeTab"]
+}
